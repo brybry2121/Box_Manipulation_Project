@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Playground</title>
+  <link rel="stylesheet" href="playground.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <header>
+    <h1>Box Playground</h1>
+    <p>Enter a color, add new boxes, Remove Boxes,Clears colors,Highlight even Boxes,Highlight odd Boxes,change Font size,Resize Boxes,and manipulate their properties interactively.</p>
+  </header>
+
+  <!-- Controls Section -->
+  <section id="controls">
+    <label for="color-input">Enter a color:</label>
+    <input id="color-input" type="text" placeholder="e.g., red or #ff5733">
+    <button id="apply-color-button">Apply Color</button> <!-- Apply Color -->
+    <button id="add-box-button">Add Box</button> <!-- Add Box -->
+    <button id="remove-box-button">Remove Box</button> <!-- Remove Box -->
+    <button id="clear-color-button">Clear Colors</button> <!-- Clear Colors -->
+    <button id="shuffle-boxes-button">Shuffle Boxes</button> <!-- Shuffle Boxes -->
+    <button id="highlight-even-button">Highlight Even Boxes</button> <!-- Highlight Even -->
+    <button id="highlight-odd-button">Highlight Odd Boxes</button> <!-- Highlight Odd -->
+    <label for="resize-input">Box Size:</label>
+    <input id="resize-input" type="number" placeholder="e.g., 100">
+    <button id="resize-boxes-button">Resize Boxes</button> <!-- Resize Boxes -->
+    <label for="font-size-input">Font Size:</label>
+    <input id="font-size-input" type="number" placeholder="e.g., 14">
+    <button id="change-font-size-button">Change Font Size</button> <!-- Change Font Size -->
+  </section>
+
+  <!-- Box Container -->
+  <section id="box-container">
+    <!-- Dynamically created boxes will appear here -->
+  </section>
+
+  <footer>
+    <p id="box-count-display">Number of Boxes: 0</p> <!-- Displays the total number of boxes -->
+  </footer>
+
+  <script src="app.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

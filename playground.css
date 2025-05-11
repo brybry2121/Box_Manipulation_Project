@@ -1,0 +1,84 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Controls section styling */
+  #controls {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #controls input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Box container styling */
+  #box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    min-height: 300px;
+  }
+  
+  /* Individual box styling */
+  .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .box:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
